@@ -37,7 +37,7 @@ var volumeData = [
 
 var audienceData = [
     {
-        value: 1357,
+        value: 1257,
         color:"#F7464A",
         highlight: "#FF5A5E",
         label: "China"
@@ -49,7 +49,7 @@ var audienceData = [
         label: "USA"
     },
     {
-        value: 64.1,
+        value: 93.89,
         color: "#FDB45C",
         highlight: "#FFC870",
         label: "UK"
@@ -80,7 +80,7 @@ window.onload = function() {
       tooltipFontFamily: "'Proxima Nova', sans-serif",
       tooltipTemplate: "<%=label%> - $<%= value %> B"
   });
-  window.myBar = new Chart(audienceCtx).PolarArea(volumeData, {
+  window.myBar = new Chart(audienceCtx).PolarArea(audienceData, {
       responsive : true,
       animationEasing: "easeOutQuart",
       tooltipFontFamily: "'Proxima Nova', sans-serif",

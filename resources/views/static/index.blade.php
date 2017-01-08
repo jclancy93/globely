@@ -16,7 +16,7 @@
       <div class="slider-left">
         <h1>The global way to buy and sell.</h1>
         <h2>Welcome to the new way to bring goods to market.</h2>
-        <a class="button teal" href="/login">Login</a>
+        <a class="button teal" href="/auth/login">Login</a>
         <a class="button teal" href="/apply">Apply</a>
       </div>
     </figure>
