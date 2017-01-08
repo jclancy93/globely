@@ -1,10 +1,16 @@
 # Globely 
 
-Globely aims to bridge the gap between Chinese distributers and western European/ U.S. suppliers.
+Globely aims to bridge the gap between Chinese distributers and western European/ U.S. suppliers. A project I created as a student in USC's ITP460
 
 # Demo of Application 
 
 https://polar-oasis-84458.herokuapp.com
+
+A test login is available. 
+
+email: test@test.com
+
+password: test123
 
 # Globely Dev Setup
 

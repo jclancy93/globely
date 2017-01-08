@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
 
         DB::table('users')->insert([
             'type' => 'supplier',
-            'email' => 'supply@gmail.com',
+            'email' => 'supply1@gmail.com',
             'password' => 'password',
             'company_name' => 'Supply Inc',
             'website' => 'supply.com',
@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
         ]);
         DB::table('users')->insert([
             'type' => 'distributor',
-            'email' => 'distribute@gmail.com',
+            'email' => 'distribute1@gmail.com',
             'password' => 'password',
             'company_name' => 'Distribute Inc',
             'website' => 'distrib.com',

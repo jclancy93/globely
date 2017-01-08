@@ -20,7 +20,7 @@
 				</div>
 				<div class="card-content">
 					<form method="POST" action="/auth/login">
-						{!! csrf_field() !!}
+						{{ csrf_field() }}
 						<label for="email">Email</label>
 						<input id="email" name="email" type="email" required value="{{ old('email') }}">
 						<label id="password">Password</label>
