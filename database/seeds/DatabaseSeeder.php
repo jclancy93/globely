@@ -33,6 +33,7 @@ class DatabaseSeeder extends Seeder
         DB::table('products')->insert([
             'name' => 'baby food',
             'brand' => 'Gerber',
+            'company' => '1',
             'description' => 'tastes good for babies',
             'price' => 10.99,
             'rating' => 5
@@ -40,6 +41,7 @@ class DatabaseSeeder extends Seeder
         DB::table('products')->insert([
             'name' => 'Bacon',
             'brand' => 'USA',
+            'company' => '1',
             'description' => 'Bringing bacon freedom to China',
             'price' => 5.99,
             'rating' => 5
