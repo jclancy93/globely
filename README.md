@@ -6,11 +6,19 @@ Globely aims to bridge the gap between Chinese distributers and western European
 
 https://polar-oasis-84458.herokuapp.com
 
-A test login is available. 
+# Notes 
 
-email: test@test.com
+This site was never a full production app, just a prototype for for an idea that was brought to us by an entrepreneur for our class. 
 
-password: test123
+* The Footer links do not work
+* The database has very little data (only 2 products)
+* 
+
+# How To
+
+1. Apply for an Account using Apply link 
+2. Enter required information (Tax ID can be any integer)
+3. Once logged in, you can browse other products or add your own
 
 # Globely Dev Setup
 

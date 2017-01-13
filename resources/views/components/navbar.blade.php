@@ -19,7 +19,7 @@
     <nav>
       <a href="/how-it-works">How It Works</a>
       <a href="/products">Products</a>
-      <a href="http://localhost:8000/auth/login">Login</a>
+      <a href="/auth/login">Login</a>
       <a href="/apply" class="with-border">Apply</a>
     </nav>
   </div>
